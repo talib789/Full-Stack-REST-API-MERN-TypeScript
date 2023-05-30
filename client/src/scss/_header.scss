@@ -1,0 +1,44 @@
+@import 'config';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid $light-color;
+    margin-bottom: 60px;
+
+    .logo a{
+      color: $light-color;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      li {
+        margin-left: 20px;
+        a {
+          display: flex;
+          align-items: center;
+          color: $light-color;
+          svg {
+            margin-right: 5px;
+          }
+        }
+        a:hover {
+          color: grey;
+        }
+      }
+    }
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    p {
+      color: #828282;
+    }
+  }
